@@ -15,11 +15,12 @@ ls -al testfile.txt
 
 # How to set file permissions to a single file
 
-chmod 777 testfile.txt
+ cd testfile.txt
+ ~/testfile.txt$ ls -l
 
 # How to set file permissions on this directory and all its contents
 
-chmod -R 755 ./
+chmod 777 testfile.txt
 
 #Prints to the screen the directory contents and the new permissions settings of everything in the directory.
-printf 
+ls -l
